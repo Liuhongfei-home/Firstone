@@ -53,6 +53,7 @@
       <module fileurl="file://$PROJECT_DIR$/04_SpringMvc_04_EncodingFilter/04_SpringMvc_04_EncodingFilter.iml" filepath="$PROJECT_DIR$/04_SpringMvc_04_EncodingFilter/04_SpringMvc_04_EncodingFilter.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_SpringMvc_05_DateFormat/04_SpringMvc_05_DateFormat.iml" filepath="$PROJECT_DIR$/04_SpringMvc_05_DateFormat/04_SpringMvc_05_DateFormat.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_SpringMvc_06_Static_Resources/04_SpringMvc_06_Static_Resources.iml" filepath="$PROJECT_DIR$/04_SpringMvc_06_Static_Resources/04_SpringMvc_06_Static_Resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GitTest/GitTest.iml" filepath="$PROJECT_DIR$/GitTest/GitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dev01.iml" filepath="$PROJECT_DIR$/.idea/dev01.iml" />
     </modules>
   </component>

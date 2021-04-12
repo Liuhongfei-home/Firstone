@@ -57,6 +57,7 @@
         <module name="04_SpringMvc_04_EncodingFilter" />
         <module name="04_SpringMvc_05_DateFormat" />
         <module name="04_SpringMvc_06_Static_Resources" />
+        <module name="GitTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -111,6 +112,7 @@
       <module name="04_SpringMvc_04_EncodingFilter" target="1.8" />
       <module name="04_SpringMvc_05_DateFormat" target="1.8" />
       <module name="04_SpringMvc_06_Static_Resources" target="1.8" />
+      <module name="GitTest" target="1.8" />
       <module name="lkjh" target="1.8" />
     </bytecodeTargetLevel>
   </component>
