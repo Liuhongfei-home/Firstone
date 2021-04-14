@@ -8,18 +8,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class UserController {
 
     @RequestMapping("testStaticResources")
-    public String testStaticResources(){
+    public String testStaticResources() {
+        System.out.println("静态资源已放行");
 
+        return "/WEB-INF/html/index.html";
+    }
+    @RequestMapping("testIndex")
+    public String testIndex() {
         System.out.println("静态资源已放行");
 
         return "/WEB-INF/html/testStaticResources.html";
     }
 
-    @RequestMapping("return")
-    public String testReturn(){
-        System.out.println("已返回");
 
-        return "/";
-
-    }
 }

@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_04_EncodingFilter" />
     <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_05_DateFormat" />
     <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_06_Static_Resources" />
+    <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_07_ResponseDate" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -72,6 +73,8 @@
         <option value="$PROJECT_DIR$/03_Spring_16_AOP_Annoction/pom.xml" />
         <option value="$PROJECT_DIR$/04_SpringMvc_04_EncodingFilter/pom.xml" />
         <option value="$PROJECT_DIR$/GitTest/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMvc_09_Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMvc_07_ResponseDate/pom.xml" />
       </list>
     </option>
   </component>

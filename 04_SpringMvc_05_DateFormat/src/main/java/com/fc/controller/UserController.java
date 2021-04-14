@@ -1,10 +1,8 @@
-package com.fc.comtroller;
+package com.fc.controller;
 
 import com.fc.bean.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.util.Date;
 
 @Controller
 @RequestMapping("user")
