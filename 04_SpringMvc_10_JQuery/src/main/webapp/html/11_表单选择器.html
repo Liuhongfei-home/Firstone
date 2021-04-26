@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单选择器</title>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+	</head>
+	<body>
+		<input type="button" value="Input Button" />
+		<input type="checkbox" />
+
+		<input type="file" />
+		<input type="hidden" />
+		<input type="image" />
+
+		<input type="password" />
+		<input type="radio" />
+		<input type="reset" />
+
+		<input type="submit" />
+		<input type="text" />
+		<select>
+			<option>Option</option>
+		</select>
+
+		<textarea></textarea>
+		<button>Button</button>
+	</body>
+	<script>
+		console.log($("input").length);
+		
+		// 匹配所有 input, textarea, select 和 button 元素
+		console.log($(":input").length);
+		
+		// 匹配所有 text 元素
+		console.log($(":button").length);
+	</script>
+</html>

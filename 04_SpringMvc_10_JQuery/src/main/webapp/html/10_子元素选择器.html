@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>子元素选择器</title>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li>John</li>
+        <li>Amy</li>
+        <li>Brandon</li>
+    </ul>
+    <ul>
+        <li>Glen</li>
+        <li>Heat</li>
+        <li>Jimmy</li>
+    </ul>
+    <ul>
+        <li>Arthur</li>
+    </ul>
+</body>
+<script>
+    // 匹配所给选择器( :之前的选择器)的第一个子元素
+    var selector = $("ul li:first-child");
+
+    // 展示内容
+    console.log(selector.text());
+
+    // 使用each进行遍历
+    selector.each(function () {
+        console.log($(this).text())
+    });
+
+    // 匹配最后一个子元素
+    console.log($("ul li:last-child").text());
+
+    // 如果某个元素是父元素中唯一的子元素，那将会被匹配
+    console.log($("ul li:only-child").text());
+</script>
+</html>

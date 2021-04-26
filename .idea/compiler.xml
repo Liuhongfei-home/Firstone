@@ -58,8 +58,17 @@
         <module name="04_SpringMvc_05_DateFormat" />
         <module name="04_SpringMvc_06_Static_Resources" />
         <module name="04_SpringMvc_07_ResponseDate" />
+        <module name="04_SpringMvc_08_Json" />
         <module name="04_SpringMvc_09_Annotation" />
-        <module name="GitTest" />
+        <module name="04_SpringMvc_10_JQuery" />
+        <module name="04_SpringMvc_11_Ajax" />
+        <module name="04_SpringMvc_12_FileUploadAndDownload" />
+        <module name="04_SpringMvc_13_Exception" />
+        <module name="05_SSM_01_wwy" />
+        <module name="05_SSM_02_House_Bean" />
+        <module name="05_SSM_02_House_Controller" />
+        <module name="05_SSM_02_House_Dao" />
+        <module name="05_SSM_02_House_Service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -115,7 +124,19 @@
       <module name="04_SpringMvc_05_DateFormat" target="1.8" />
       <module name="04_SpringMvc_06_Static_Resources" target="1.8" />
       <module name="04_SpringMvc_07_ResponseDate" target="1.8" />
+      <module name="04_SpringMvc_08_Json" target="1.8" />
       <module name="04_SpringMvc_09_Annotation" target="1.8" />
+      <module name="04_SpringMvc_10_JQuery" target="1.8" />
+      <module name="04_SpringMvc_11_Ajax" target="1.8" />
+      <module name="04_SpringMvc_12_FileUploadAndDownload" target="1.8" />
+      <module name="04_SpringMvc_13_Exception" target="1.8" />
+      <module name="05_SSM_01_wwy" target="1.8" />
+      <module name="05_SSM_01_wyy" target="1.8" />
+      <module name="05_SSM_02_House_Bean" target="1.8" />
+      <module name="05_SSM_02_House_Controller" target="1.8" />
+      <module name="05_SSM_02_House_Dao" target="1.8" />
+      <module name="05_SSM_02_House_Parent" target="1.8" />
+      <module name="05_SSM_02_House_Service" target="1.8" />
       <module name="GitTest" target="1.8" />
       <module name="lkjh" target="1.8" />
     </bytecodeTargetLevel>

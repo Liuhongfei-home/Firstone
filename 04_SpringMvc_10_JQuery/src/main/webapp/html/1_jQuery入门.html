@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery入门</title>
+		<!-- 引入jQuery -->
+		<script src="../js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<input type="button" id="id" value="我是按钮" />
+		
+		<div>好困</div>
+	</body>
+	<script>
+		// JS中的写法
+		var inputElement = document.getElementById("id");
+
+		var value = inputElement.value;
+
+		// alert("JS:" + value);
+	</script>
+	
+	<script>
+		// jQuery的写法，通过id选择器获取元素
+		var inputElement2 = $("#id");
+		
+		// 获取元素的值
+		var value2 = inputElement2.val();
+		
+		// alert("jQuery:" + value2);
+		
+		// 给元素设置值
+		inputElement2.val("你才是按钮");
+	</script>
+	
+	<script>
+		// js中的写法
+		var divElements = document.getElementsByTagName("div");
+		var divContent = divElements[0].innerHTML;
+		
+		// alert("JS:" + divContent);
+		
+	</script>
+	
+	<script>
+		// 通过jQuery获取元素
+		var divElement2 = $("div");
+		
+		// 通过jQuery获取元素的内容
+		var divValue1 = divElement2.html();
+		
+		alert("jQuery:" + divValue1);
+	</script>
+</html>

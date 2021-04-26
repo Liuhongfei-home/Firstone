@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="04_SpringMvc_12_FileUploadAndDownload:war">
+    <output-path>$PROJECT_DIR$/04_SpringMvc_12_FileUploadAndDownload/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>04_SpringMvc_12_FileUploadAndDownload</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="04_SpringMvc_12_FileUploadAndDownload-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="04_SpringMvc_12_FileUploadAndDownload:war exploded" />
+    </root>
+  </artifact>
+</component>

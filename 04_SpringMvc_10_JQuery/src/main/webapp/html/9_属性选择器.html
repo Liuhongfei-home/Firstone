@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>属性选择器</title>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+	</head>
+	<body>
+		<div>
+		  <p>Hello!</p>
+		</div>
+		<div id="test2">World</div>
+		<div class="class">UI</div>
+
+		<input type="checkbox" name="checkbox1" />唱
+		<input type="checkbox" name="checkbox2" />跳
+		<input type="checkbox" name="checkbox3" />Rap
+		
+		<input type="checkbox" name="man-news" />吃
+		<input type="checkbox" name="milkman" />喝
+		<input type="checkbox" name="letterman2" />拉
+		<input type="checkbox" name="newmilk" />撒
+	</body>
+	<script>
+		// 匹配包含给定属性的元素。
+		console.log($("div[class]").html());
+		
+		// 匹配给定的属性是某个特定值的元素
+		$("input[name='checkbox1']").attr("checked", "true");
+		
+		// 匹配给定的属性不是某个特定值的元素
+		$("input[name!='checkbox1']").attr("checked", "true");
+
+		// 匹配给定的属性是以某些值开始的元素
+		$("input[name^=checkbox]").removeAttr("checked");
+
+		// 匹配给定的属性是以某些值结尾的元素
+		$("input[name$=2]").attr("checked", "true");
+
+		// 匹配给定的属性是以包含某些值的元素
+		$("input[name*='man']").removeAttr("checked");
+
+		// 复合属性选择器，需要同时满足多个条件时使用。
+		$("input[name$=2][name*='man']").attr("checked", "true");
+	</script>
+</html>

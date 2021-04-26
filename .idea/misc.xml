@@ -11,6 +11,14 @@
     <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_05_DateFormat" />
     <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_06_Static_Resources" />
     <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_07_ResponseDate" />
+    <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_09_Annotation" />
+    <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_10_JQuery" />
+    <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_11_Ajax" />
+    <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_12_FileUploadAndDownload" />
+    <file type="web" url="file://$PROJECT_DIR$/04_SpringMvc_13_Exception" />
+    <file type="web" url="file://$PROJECT_DIR$/05_SSM_01_wwy" />
+    <file type="web" url="file://$PROJECT_DIR$/05_SSM_01_wyy" />
+    <file type="web" url="file://$PROJECT_DIR$/05_SSM_02_House_Parent" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -72,9 +80,17 @@
         <option value="$PROJECT_DIR$/00_SpringMvc_01_Test/pom.xml" />
         <option value="$PROJECT_DIR$/03_Spring_16_AOP_Annoction/pom.xml" />
         <option value="$PROJECT_DIR$/04_SpringMvc_04_EncodingFilter/pom.xml" />
-        <option value="$PROJECT_DIR$/GitTest/pom.xml" />
         <option value="$PROJECT_DIR$/04_SpringMvc_09_Annotation/pom.xml" />
         <option value="$PROJECT_DIR$/04_SpringMvc_07_ResponseDate/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMvc_10_Ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMvc_08_Json/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMvc_10_JQuery/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMvc_11_Ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMvc_12_FileUploadAndDownload/pom.xml" />
+        <option value="$PROJECT_DIR$/05_SSM_01_wwy/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpingMvc_13Exception/pom.xml" />
+        <option value="$PROJECT_DIR$/04_SpringMvc_13_Exception/pom.xml" />
+        <option value="$PROJECT_DIR$/05_SSM_02_House_Parent/pom.xml" />
       </list>
     </option>
   </component>

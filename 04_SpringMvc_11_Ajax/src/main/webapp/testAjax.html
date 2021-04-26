@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试Ajax请求SpringMvc</title>
+</head>
+<body>
+<form method="post" action="/test/getRequest">
+    <table align="center">
+        <caption><h1 style="color: deeppink">测试Ajax请求SpringMvc</h1></caption>
+
+        <tr>
+            <td>账号</td>
+            <td><input type="text" id="username" name="username"></td>
+        </tr>
+
+        <tr>
+            <td>密码</td>
+            <td><input type="password" id="password" name="password"></td>
+        </tr>
+
+        <tr>
+            <td>年龄</td>
+            <td><input type="text" id="age" name="age"></td>
+        </tr>
+
+        <tr>
+            <td>信息</td>
+            <td><input type="text" id="info" name="info"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="reset" value="重置">
+               <input type="button" onclick="sendRequest()"  value="登录">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+<!--引入jquery.js-->
+<script src="js/jquery.min.js"></script>
+
+<script type="text/javascript">
+    function sendRequest() {
+        // var data = $("form").serialize();
+        //
+        // alert(data);
+
+        var username = $("#username").val();
+        var password = $("#password").val();
+        var age = $("#age").val();
+        var info = $("#info").val();
+
+        $.ajax({
+            type: "post",
+            url: "test/getRequest",
+            async: true,
+            data: {'username': username, 'password': password, 'age': age, 'info': info},
+            success: function (data) {
+                if (data.code === 200 || data.success) {
+                    alert(data.message);
+
+                    $("#username").val(data.data.username);
+                    $("#password").val(data.data.password);
+                    $("#age").val(data.data.age);
+                    $("#info").val(data.data.info);
+                }
+            }
+        });
+    }
+</script>
+</html>

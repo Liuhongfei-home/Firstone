@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单对象属性选择器</title>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+	</head>
+	<body>
+		<form>
+			<input name="email" disabled="disabled" />
+			<input name="id" />
+			<input type="checkbox" name="cb1" checked="checked"/>唱
+			<input type="checkbox" name="cb2"/>跳
+			<input type="checkbox" name="cb3" checked="checked"/>Rap
+			
+			<select>
+			  <option value="1">唱</option>
+			  <option value="2" selected="selected">跳</option>
+			  <option value="3">Rap</option>
+			</select>
+		</form>
+	</body>
+	<script>
+		// 匹配所有可用元素
+		console.log($("input:enabled").length);
+
+		// 匹配所有不可用元素
+		console.log($("input:disabled").length);
+		
+		// 匹配所有选中的被选中元素(复选框、单选框等，select中的option)，对于select元素来说，获取选中推荐使用 :selected
+		console.log($("input:checked").length);
+		
+		// 匹配所有选中的option元素
+		console.log($("select option:selected").length);
+	</script>
+</html>

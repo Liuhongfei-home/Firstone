@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-        <h1 align="center" style="color: cyan">没事回去听一听：${username} ${password}</h1>
+        <h1 align="center" style="color: cyan">没事回去听一听：${obj1} ${obj2}</h1>
 </body>
 </html>

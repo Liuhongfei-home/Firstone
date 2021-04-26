@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fc.dao.TbsheetDao">
+
+    <!--二级缓存-->
+    <cache/>
+
+    <select id="findAll" resultType="tbSheet">
+        select * from tb_sheet
+    </select>
+
+    <select id="findSongsBySheet" parameterType="java.lang.String" resultType="tbMusic">
+    select music.*
+    from tb_music music
+    inner join tb_sheet sheet
+    on music.sheet_id=sheet.id
+    where sheet.sheet_name=#{sheetName}
+    </select>
+
+    <insert id="insertSheet" parameterType="java.lang.String">
+        insert into tb_sheet (sheet_name)
+        values (#{sheetName});
+    </insert>
+
+</mapper>

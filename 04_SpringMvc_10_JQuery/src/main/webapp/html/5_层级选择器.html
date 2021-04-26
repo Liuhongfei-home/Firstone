@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>层级选择器</title>
+		<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<div id="div1">
+			<div id="div2">嘻嘻
+				<div class="divClass1">哈哈</div>
+			</div>
+			
+			<div class="divClass2">呵呵</div>
+			<div id="div3">呀呀</div>
+		</div>
+		
+	</body>
+	<script>
+		// 获取所有div的个数
+		console.log($("div").length);
+		
+		// 获取呵呵所在的div的值
+		console.log($("#div1 .divClass2").html());
+		
+		// 获取哈哈所在的div的值
+		console.log($("#div1 #div2 .divClass1").text());
+		
+		// 在给定的父元素下匹配所有的子元素
+		console.log($("#div1 > div").text());
+		
+		// 匹配所有紧接在 div2 元素后的 div 元素
+		console.log($("#div2 + div").text());
+		
+		// 匹配 div2 元素之后的所有 div 元素
+		console.log($("#div2 ~ div").text());
+		
+		// 指定任意多个选择器，并将匹配到的元素合并到一个结果内
+		console.log($("#div1, .divClass2, #div2").length)
+	</script>
+</html>

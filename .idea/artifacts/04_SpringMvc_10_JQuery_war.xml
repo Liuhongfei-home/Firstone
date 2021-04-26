@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="04_SpringMvc_10_JQuery:war">
+    <output-path>$PROJECT_DIR$/04_SpringMvc_10_JQuery/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>04_SpringMvc_10_JQuery</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="04_SpringMvc_10_JQuery-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="04_SpringMvc_10_JQuery:war exploded" />
+    </root>
+  </artifact>
+</component>

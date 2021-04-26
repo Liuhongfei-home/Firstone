@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery入门2</title>
+		<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.3.min.js"></script>
+	</head>
+	<body>
+		<input type="button" id="id" value="我就是个按钮" />
+	</body>
+	
+	<script>
+		// 获取js对象
+		var inputElement = document.getElementById("id");
+		
+		alert("js类型:" + typeof inputElement);
+		
+		// js对象转jquery对象
+		var jqueryElement = $(inputElement);
+
+		alert("jquery类型:" + typeof jqueryElement);
+		alert("jquery获取的值:" + jqueryElement.val());
+
+		// jquery对象转为js对象
+		var jsObject = jqueryElement.get(0);
+
+		alert("js类型:" + jsObject.value);
+	</script>
+</html>

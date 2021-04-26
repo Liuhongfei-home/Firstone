@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery常见方法</title>
+		<script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js"></script>
+	</head>
+	<body>
+		<div id="id">易烊千玺</div>
+		<input value="送你一朵小红花" type="button" class="class"/>
+		<span>真帅</span>
+		<p style="color: red; width: auto;">俺是P标签</p>
+	</body>
+	<script>
+		var idElement = $("#id");
+		
+		var classElement = $(".class");
+		
+		var spanElement = $("span");
+		
+		var pElement = $("p");
+		
+		// 获取标签之间的内容
+		console.log(idElement.text());
+		
+		// 获取元素的值
+		console.log(classElement.val());
+		
+		// 获取元素的内容
+		console.log(spanElement.html());
+		
+		// 获取css样式
+		console.log(pElement.css("color") + ":" + pElement.css("width"));
+		
+		// 添加css样式
+		pElement.css({"color" : "green"});
+		
+		// 获取同种类型元素的数量
+		console.log($("div").length);
+	</script>
+	
+</html>
